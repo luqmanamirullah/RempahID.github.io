@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Forum', cursive;
+}
+
+
+body{
+	background: url("bg-Aboutus .jpg"); 
+	height:100vh;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+/*Navigasi*/
+.wrapper{
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a{
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	color: #E06D00;
+}
+
+.nav-menu{
+	float: right; 
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	line-height: 80px;
+	margin: auto;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color: white ;
+	opacity: 0.8;
+	z-index: 1000;
+}
+
+nav ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;;
+
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	padding: 0px 16px 0px 16px;
+	text-align: center;
+}
+
+nav li a:hover {
+	color: brown;
+
+}
+.nav-menu a.active {
+  color: green;
+}
+
+/*Content*/
+.center_img25 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+.center_img50 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.h1top{
+	font-family: 'Cinzel Decorative', cursive;
+	color: #D4AF37;
+}
+
+.p1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*Gallery Product*/
+.produk_image {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  padding: 0px 16px 0px 16px;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity.5s;
+  background-color: #fff;
+}
+
+.produk_image:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer_produk {
+	color: #333;
+	text-decoration: none;
+}
+.footer_produk p:hover{
+	color: brown;
+}
+
+.afooter_home p{
+	text-decoration: none;
+	color: black;
+}
+.afooter_home p:hover{
+	color: brown;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.footer a{
+	color: #333;
+	text-decoration: none;
+}
